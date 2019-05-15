@@ -1,7 +1,7 @@
 {
   $('button#play-pause').on('click', function () {
-    // we need to pass the currently playing song, otherwise the player will get an undefined song
-    helper.playPauseAndUpdate(player.currentlyPlaying);
+
+    helper.playPauseAndUpdate();
     $(this).attr('playState', player.playState);
   });
 
